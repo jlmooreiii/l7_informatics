@@ -1,6 +1,6 @@
 describe('drag and drop test', () => {
     it('visits the desired page', () => {
-        cy.visit('https://the-internet.herokuapp.com/drag_and_drop')
+        cy.visit('http://the-internet.herokuapp.com/drag_and_drop')
     })
     it('can drag and drop', () => {
         // get inital location of column-b
